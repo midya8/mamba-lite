@@ -51,7 +51,9 @@ The fixed-rate variant learns to output the right distribution of tokens but
 never completes a single sequence: without input-dependent gating it cannot
 decide when to emit, or hold the answer through up to 12 filler tokens.
 
-`assets/learning_curve.png` shows both runs. Training takes about 15 minutes
+![learning curves for both runs](assets/learning_curve.png)
+
+Training takes about 15 minutes
 on a laptop CPU in float64.
 
 ## Usage
