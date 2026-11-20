@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+assets/ckpt_*.npz
+assets/hist_*.json
